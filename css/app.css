@@ -1,3 +1,12 @@
+*{
+    padding: 0; margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    padding: 0;
+}
 .nav{
     border: 1px solid #ccc
 }
@@ -9,4 +18,37 @@
 }
 .nav>.list-group-item:last-child{
     border: none;
+}
+.info-list{
+    margin-top: 20px;
+}
+
+.info-list h4{
+    border-bottom: 1px solid #1b6d85; padding: 10px 0;
+}
+.info-list li{
+    list-style-type: none; line-height: 30px;
+}
+
+/*play*/
+.play{
+    position: relative; width: 100%; height: 390px; overflow: hidden;
+}
+.play ol{
+    position: absolute; bottom: 5px; z-index: 99999; left: 50%; margin-left:-64px;
+}
+.play ol li{
+    float: left; background: #fff; margin-left: 10px; border-radius: 50%;
+    width: 22px; height: 22px; text-align: center; line-height: 22px;
+
+}
+.play ul{
+    position: absolute; top: 0; left: 0; width: 100%;
+    height: 100%; z-index: 1;
+}
+.play ul li{
+    width: 100%; height: 100%;
+}
+.play .active{
+    background: #122b40; color: #fff;
 }
