@@ -4,9 +4,13 @@
 li{
     list-style-type: none;
 }
+.main{
+    width: 100%;
+}
 .container{
     padding: 0;
 }
+.topMenu{}
 .nav{
     border: 1px solid #ccc
 }
@@ -35,11 +39,11 @@ li{
     position: relative; width: 100%; height: 390px; overflow: hidden;
 }
 .play ol{
-    position: absolute; bottom: 5px; z-index: 99999; left: 50%; margin-left:-64px;
+    position: absolute; bottom: 5px; z-index: 99999; left: 50%; margin-left:-50px;
 }
 .play ol li{
     float: left; background: #fff; margin-left: 10px; border-radius: 50%;
-    width: 22px; height: 22px; text-align: center; line-height: 22px;
+    width: 15px; height: 15px; text-align: center; line-height: 15px;
 
 }
 .play ul{

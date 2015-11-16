@@ -18,17 +18,17 @@ $(function(){
     });
     function tab(){
         aHead.removeClass('active');
-        if(now==aHead.length){
+        if(now==4){
             aHead.eq(0).addClass('active');
         }else{
             aHead.eq(now).addClass('active');
         }
         oUl.animate(
-            {'top':-oContent.height()*now+'px'
-            //'opacity':0.5
+            {'top':-oContent.height()*now+'px',
+            //'opacity':1.0
             },
             {'complete':function(){
-                if(now==aContent.length){
+                if(now==4){
                     oUl.css('top','0');
                     now=0;
                 }
